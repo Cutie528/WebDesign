@@ -1,0 +1,41 @@
+    #outFrame {
+        margin: 40px 50px 50px 40px;
+        background-color: rgb(236, 232, 232);
+        padding: 40px 50px 50px 40px;
+        border-radius: 10px;
+    }
+
+    #imgPart {
+        width: 900px;
+        position: relative;
+        left: 50%;
+        margin-left: -450px;
+        background-color: white;
+    }
+
+    img {
+        padding: 5px;
+        width: 890px;
+        height: 400px
+    }
+
+    #imgPart p {
+        padding: 0px 5px 3px 5px;
+        font-size: 12px
+    }
+
+    ul {
+        width: 700px;
+        position: relative;
+        left: 50%;
+        margin-left: -350px;
+        font-size: 14px;
+        padding-left: 0px
+    }
+
+    #bottomSize {
+        width: 800px;
+        position: relative;
+        left: 50%;
+        margin-left: -400px;
+    }

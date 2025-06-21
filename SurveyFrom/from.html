@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>调查表格</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">
+                Favorite JAY Song
+            </h1>
+            <p id="description" class="description">
+                Thank you for taking the time to help us improve the platform
+            </p>            
+        </header>
+        <form action="#" id="survey-form"> 
+            <div class="form-group">
+                <label id="name-label" for="name">YourName</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your Da Ming" required>
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age</label>
+                <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" required>
+            </div>
+            <div class="form-group">
+                <p>Which is your favorite album?</p>
+                <select name="role" id="dropdown" class="form-control" required>
+                    <option disabled selected value>Select one album</option>
+                    <option value="fantexi">范特西</option>
+                    <option value="yehuimei">叶惠美</option>
+                    <option value="wuyulunbi">无与伦比</option>
+                    <option value="badukongjian">八度空间</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Would you recommend one album to a friend?</p>
+                <label>
+                    <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>
+                    Definitely
+                </label>
+                <label>
+                    <input name="user-recommend" value="maybe" type="radio" class="input-radio" checked>
+                    Maybe
+                </label>
+                <label>
+                    <input name="user-recommend" value="not-sure" type="radio" class="input-radio" checked>
+                    not-sure
+                </label>
+            </div>
+            <div class="form-group">
+               <p>What songs do you usually listen to? <span class="clue">(Check all that apply)</span></p> 
+               <label>
+                <input name="prefer" value="yanhuayileng" type="checkbox" class="input-checkbox">烟花易冷
+               </label>
+               <label>
+                <input name="prefer" value="nitingdedao" type="checkbox" class="input-checkbox">你听得到
+               </label>
+               <label>
+                <input name="prefer" value="longjuanfeng" type="checkbox" class="input-checkbox">龙卷风
+               </label>
+               <label>
+                <input name="prefer" value="qiaokeshushu" type="checkbox" class="input-checkbox">乔克叔叔
+               </label>
+               <label>
+                <input name="prefer" value="anhao" type="checkbox" class="input-checkbox">暗号
+               </label>
+               <label>
+                <input name="prefer" value="simianchuge" type="checkbox" class="input-checkbox">四面楚歌
+               </label>
+               <label>
+                <input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">其它
+               </label>
+            </div>
+            <div>
+                <p>Any songs or tune</p>
+                <textarea name="comment" id="comments" placeholder="Enter you other preferences"></textarea>
+            </div>
+            <div>
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </div>
+        </form>
+    <div>
+</body>
+</html>
